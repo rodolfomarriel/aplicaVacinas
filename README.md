@@ -1,8 +1,8 @@
-# Sistema de cadastro de vacinação  
+# Sistema de cadastro de vacinação 
 
-Essa é uma aplicacao baseada nem CRUD, onde é possivel fazer cadastro e edição dos registros. 
+Essa é uma aplicacao baseada num CRUD, onde é possivel fazer cadastro e edição dos registros.
 
-O sistema é centralizado nos usuários, suas classes são Usuario e Vacina, vacinas essas que sempre fazem referência ao usuário .
+O sistema é centralizado nos usuários. Suas classes são: Usuario e Vacina.
 
 ## Tecnologias utilizadas
 
@@ -14,9 +14,9 @@ O sistema é centralizado nos usuários, suas classes são Usuario e Vacina, vac
 
 ## Como utilizar
 
-É preciso configurar um banco de dados para conexão da aplicação .
+Conectar-se a um banco de dados MySQL
 
-Depois de configurando o banco de dados, rodar comando no terminal:
+Rodar comando no terminal:
 
 ```
 mvn spring-boot:run
@@ -41,3 +41,5 @@ mvn spring-boot:run
 | GET | Busca | /vacinas/{id} |
 | PUT | Atualiza | /vacinas/{id} |
 | DELETE | Deleta | /vacinas/{id} |
+
+A aplicação roda na porta 8081, para mudar a porta, é preciso mudar a configuração no arquivo `application.properties`
