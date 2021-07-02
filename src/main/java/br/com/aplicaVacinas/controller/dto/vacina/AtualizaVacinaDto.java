@@ -1,12 +1,12 @@
-package br.com.orangeTalents.aplicaVacinas.controller.dto.vacina;
+package br.com.aplicaVacinas.controller.dto.vacina;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 import javax.validation.constraints.Pattern;
 
-import br.com.orangeTalents.aplicaVacinas.model.Vacina;
-import br.com.orangeTalents.aplicaVacinas.repository.VacinaRepository;
+import br.com.aplicaVacinas.model.Vacina;
+import br.com.aplicaVacinas.repository.VacinaRepository;
 
 public class AtualizaVacinaDto {
 

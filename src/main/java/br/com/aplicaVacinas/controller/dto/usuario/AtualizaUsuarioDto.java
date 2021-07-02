@@ -1,4 +1,4 @@
-package br.com.orangeTalents.aplicaVacinas.controller.dto.usuario;
+package br.com.aplicaVacinas.controller.dto.usuario;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -7,8 +7,8 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 
-import br.com.orangeTalents.aplicaVacinas.model.Usuario;
-import br.com.orangeTalents.aplicaVacinas.repository.UsuarioRepository;
+import br.com.aplicaVacinas.model.Usuario;
+import br.com.aplicaVacinas.repository.UsuarioRepository;
 
 public class AtualizaUsuarioDto {
 

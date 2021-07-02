@@ -1,4 +1,4 @@
-package br.com.orangeTalents.aplicaVacinas.controller;
+package br.com.aplicaVacinas.controller;
 
 import java.net.URI;
 import java.time.format.DateTimeFormatter;
@@ -20,12 +20,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import br.com.orangeTalents.aplicaVacinas.controller.dto.vacina.AtualizaVacinaDto;
-import br.com.orangeTalents.aplicaVacinas.controller.dto.vacina.VacinaDto;
-import br.com.orangeTalents.aplicaVacinas.model.Usuario;
-import br.com.orangeTalents.aplicaVacinas.model.Vacina;
-import br.com.orangeTalents.aplicaVacinas.repository.UsuarioRepository;
-import br.com.orangeTalents.aplicaVacinas.repository.VacinaRepository;
+import br.com.aplicaVacinas.controller.dto.vacina.AtualizaVacinaDto;
+import br.com.aplicaVacinas.controller.dto.vacina.VacinaDto;
+import br.com.aplicaVacinas.model.Usuario;
+import br.com.aplicaVacinas.model.Vacina;
+import br.com.aplicaVacinas.repository.UsuarioRepository;
+import br.com.aplicaVacinas.repository.VacinaRepository;
 import javassist.NotFoundException;
 
 @RestController

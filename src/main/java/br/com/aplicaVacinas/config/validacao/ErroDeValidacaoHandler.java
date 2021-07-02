@@ -1,4 +1,4 @@
-package br.com.orangeTalents.aplicaVacinas.config.validacao;
+package br.com.aplicaVacinas.config.validacao;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -12,9 +12,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import br.com.orangeTalents.aplicaVacinas.controller.dto.usuario.UsuarioDto;
-import br.com.orangeTalents.aplicaVacinas.model.Usuario;
-import br.com.orangeTalents.aplicaVacinas.repository.UsuarioRepository;
+import br.com.aplicaVacinas.controller.dto.usuario.UsuarioDto;
+import br.com.aplicaVacinas.model.Usuario;
+import br.com.aplicaVacinas.repository.UsuarioRepository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

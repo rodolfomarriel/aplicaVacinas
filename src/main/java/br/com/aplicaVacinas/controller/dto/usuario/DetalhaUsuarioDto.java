@@ -1,12 +1,12 @@
-package br.com.orangeTalents.aplicaVacinas.controller.dto.usuario;
+package br.com.aplicaVacinas.controller.dto.usuario;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import br.com.orangeTalents.aplicaVacinas.controller.dto.vacina.VacinaDto;
-import br.com.orangeTalents.aplicaVacinas.model.Usuario;
+import br.com.aplicaVacinas.controller.dto.vacina.VacinaDto;
+import br.com.aplicaVacinas.model.Usuario;
 
 public class DetalhaUsuarioDto {
 

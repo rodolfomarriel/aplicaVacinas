@@ -1,4 +1,4 @@
-package br.com.orangeTalents.aplicaVacinas.controller;
+package br.com.aplicaVacinas.controller;
 
 import java.net.URI;
 import java.util.List;
@@ -22,12 +22,12 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 
-import br.com.orangeTalents.aplicaVacinas.config.validacao.ErroDeRequisicaoDto;
-import br.com.orangeTalents.aplicaVacinas.controller.dto.usuario.AtualizaUsuarioDto;
-import br.com.orangeTalents.aplicaVacinas.controller.dto.usuario.DetalhaUsuarioDto;
-import br.com.orangeTalents.aplicaVacinas.controller.dto.usuario.UsuarioDto;
-import br.com.orangeTalents.aplicaVacinas.model.Usuario;
-import br.com.orangeTalents.aplicaVacinas.repository.UsuarioRepository;
+import br.com.aplicaVacinas.config.validacao.ErroDeRequisicaoDto;
+import br.com.aplicaVacinas.controller.dto.usuario.AtualizaUsuarioDto;
+import br.com.aplicaVacinas.controller.dto.usuario.DetalhaUsuarioDto;
+import br.com.aplicaVacinas.controller.dto.usuario.UsuarioDto;
+import br.com.aplicaVacinas.model.Usuario;
+import br.com.aplicaVacinas.repository.UsuarioRepository;
 import javassist.NotFoundException;
 
 @RestController

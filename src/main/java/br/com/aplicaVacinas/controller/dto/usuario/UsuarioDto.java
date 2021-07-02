@@ -1,4 +1,4 @@
-package br.com.orangeTalents.aplicaVacinas.controller.dto.usuario;
+package br.com.aplicaVacinas.controller.dto.usuario;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -9,8 +9,8 @@ import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.br.CPF;
 
-import br.com.orangeTalents.aplicaVacinas.config.validacao.custom.unique.Unique;
-import br.com.orangeTalents.aplicaVacinas.model.Usuario;
+import br.com.aplicaVacinas.config.validacao.custom.unique.Unique;
+import br.com.aplicaVacinas.model.Usuario;
 
 public class UsuarioDto {
 

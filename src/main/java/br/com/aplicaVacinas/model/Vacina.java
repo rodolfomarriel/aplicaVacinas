@@ -1,4 +1,4 @@
-package br.com.orangeTalents.aplicaVacinas.model;
+package br.com.aplicaVacinas.model;
 
 import java.time.LocalDate;
 

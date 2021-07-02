@@ -1,4 +1,4 @@
-package br.com.orangeTalents.aplicaVacinas.config.validacao.custom.unique;
+package br.com.aplicaVacinas.config.validacao.custom.unique;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

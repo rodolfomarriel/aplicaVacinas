@@ -1,11 +1,11 @@
-package br.com.orangeTalents.aplicaVacinas.config.validacao.custom.unique;
+package br.com.aplicaVacinas.config.validacao.custom.unique;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import br.com.orangeTalents.aplicaVacinas.repository.UsuarioRepository;
+import br.com.aplicaVacinas.repository.UsuarioRepository;
 
 public class UniqueValidator implements ConstraintValidator<Unique,String> {
 

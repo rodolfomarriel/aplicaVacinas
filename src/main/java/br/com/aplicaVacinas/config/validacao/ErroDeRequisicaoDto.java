@@ -1,4 +1,4 @@
-package br.com.orangeTalents.aplicaVacinas.config.validacao;
+package br.com.aplicaVacinas.config.validacao;
 
 public class ErroDeRequisicaoDto {
 
