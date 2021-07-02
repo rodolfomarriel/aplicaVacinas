@@ -1,6 +1,7 @@
 package br.com.orangeTalents.aplicaVacinas.controller;
 
 import java.net.URI;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Optional;
 
@@ -30,6 +31,8 @@ import javassist.NotFoundException;
 @RestController
 @RequestMapping("/vacinas")
 public class VacinaRestController {
+	
+	private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 	
 	@Autowired
 	private VacinaRepository vacinaRepository;
@@ -82,6 +85,16 @@ public class VacinaRestController {
 		Optional<Vacina> optional = vacinaRepository.findById(id);
 		
 		if (optional.isPresent()) {
+			Vacina vacinaTmp = optional.get();
+			
+			if(atualizaVacina.getNomeVacina() == null || atualizaVacina.getNomeVacina().isEmpty()) {
+				atualizaVacina.setNomeVacina(vacinaTmp.getNome());
+			}
+			
+			if(atualizaVacina.getDataVacinacao() == null || atualizaVacina.getDataVacinacao().isEmpty()) {
+				atualizaVacina.setDataVacinacao(vacinaTmp.getDataVacinacao().format(formatter));
+			}
+			
 			Vacina vacina = atualizaVacina.atualizar(id, vacinaRepository);
 			return ResponseEntity.ok(new VacinaDto(vacina));
 		}

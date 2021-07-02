@@ -42,4 +42,4 @@ mvn spring-boot:run
 | PUT | Atualiza | /vacinas/{id} |
 | DELETE | Deleta | /vacinas/{id} |
 
-A aplicação roda na porta 8081, para mudar a porta é preciso modificar a configuração no arquivo `application.properties`
+A aplicação roda na porta 8081, para mudar a porta é preciso modificar a configuração no arquivo `application.yml`
